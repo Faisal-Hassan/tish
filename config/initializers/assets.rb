@@ -8,5 +8,7 @@ Rails.application.config.assets.paths << "#{Rails.root}/app/assets/videos"
 # Rails.application.config.assets.paths << Emoji.images_path
 
 # Precompile additional assets.
+# Rails.application.config.assets.precompile += %w( skel.min.js )
+# Rails.application.config.assets.precompile += %w( util.js )
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
