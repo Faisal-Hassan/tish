@@ -1,8 +1,9 @@
 <!-- Main -->
 <div id="main">
 	<video playsinline autoplay muted loop poster="#" id="bgvid">
-    <source src="../../assets/videos/hd1037.webm" type="video/webm">
-    <source src="../../assets/videos/hd1037.mp4" type="video/mp4">
+    <%= video_tag "hd1037.webm", :type => "video/webm" %>
+    <!--<source src="../../assets/videos/hd1037.mp4" type="video/mp4">-->
+    <%= video_tag "hd1037.mp4", :type => "video/mp4" %>
 	</video>
 
 	<!-- Intro -->
